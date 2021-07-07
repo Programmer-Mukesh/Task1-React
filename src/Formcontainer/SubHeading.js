@@ -1,10 +1,10 @@
 import React from 'react';
 import "./SubHeading.css";
 
-const SubHeading=(props) =>{
+const SubHeading=({text}) =>{
     return(
         <div className="SubHeading">
-            <h3>{props.text}</h3>
+            <h3>{text}</h3>
         </div>
     )
 }
