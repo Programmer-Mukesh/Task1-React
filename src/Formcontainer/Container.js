@@ -7,11 +7,19 @@ import Form from './Form';
 import Footer from './Footer';
 
 class Container extends Component{
+    constructor(props){
+        super(props)
+        this.state={
+            text1: "Join free today.",
+            text2: "Get Started! It only takes a few minutes."
+        }
+    }
+
     render(){
         return(
             <div className="Container">
-                <Heading text={"Join free today."}/>
-                <SubHeading text={"Get Started! It only takes a few minutes."}/>
+                <Heading text={this.state.text1}/>
+                <SubHeading text={this.state.text2}/>
                 <Radio/>
                 <Form/>
                 <Footer/>
