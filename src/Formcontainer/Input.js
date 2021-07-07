@@ -6,7 +6,7 @@ class Input extends Component {
         return (
             <div>
                 <form className="form" action="">
-                    <input className="items" type={this.props.type} placeholder={this.props.placeholder}/>
+                    <input className="items" placeholder={this.props.insideText}/>
                 </form>
             </div>
         )
