@@ -7,11 +7,11 @@ class Form extends Component {
         return (
             <div>
                 <form className="form" action="">
-                    <Input placeholder={"First Name*"}/>
-                    <Input placeholder={"Last Name*"}/>
-                    <Input placeholder={"City, State and ZIP*"}/>
-                    <Input placeholder={"Email*"} type={"email"}/>
-                    <Input placeholder={"Password*(at least 6 characters)"} type={"password"}/>
+                    <Input insideText={"First Name*"}/>
+                    <Input insideText={"Last Name*"}/>
+                    <Input insideText={"City, State and ZIP*"}/>
+                    <Input insideText={"Email*"} type="email"/>
+                    <Input insideText={"Password*(at least 6 characters)"} type="password"/>
                     <select className="dropdown">
                         <option value="select">How Did You Hear About Us?</option>
                         <option value="select">Facebook</option>
