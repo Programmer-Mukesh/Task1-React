@@ -32,8 +32,10 @@ class Form extends Component {
           <Input insideText={content4} type="email" />
           <Input insideText={content5} type="password" />
           <select className="dropdown">
-            {options.map((x) => (
-              <option value="select">{x}</option>
+            {options.map((x, index) => (
+              <option value="select" key={index}>
+                {x}
+              </option>
             ))}
           </select>
         </form>
