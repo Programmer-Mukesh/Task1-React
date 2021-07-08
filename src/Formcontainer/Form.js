@@ -21,8 +21,14 @@ class Form extends Component {
   }
 
   render() {
-    const { content1, content2, content3, content4, content5, options } =
-      this.state;
+    const { 
+      content1,
+      content2,
+      content3, 
+      content4, 
+      content5, 
+      options, 
+      } = this.state;
 
     return (
       <div>
