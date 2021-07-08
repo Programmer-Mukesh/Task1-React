@@ -1,0 +1,23 @@
+
+.hr{
+    margin: 1.2rem 0 1.2rem 0;
+    width: 75%;
+}
+
+.footer{
+    margin: 1rem 0 1rem 0;
+    font-size: 12px ;
+}
+.footer .terms{
+    color: rgb(58, 75, 153);
+    
+}
+
+.footer .btn{
+    background-color: rgb(245, 72, 41);
+    width: 100px;
+    margin-left: 3rem;
+    padding: 6px;
+    border: none;
+    color: white;
+}
