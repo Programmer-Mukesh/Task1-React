@@ -6,12 +6,10 @@ const style = {
   padding: "1rem",
 };
 
-const Logo = () => {
-  return (
-    <div className="logo">
-      <img style={style} src={logo} alt="logo" />
-    </div>
-  );
-};
+const Logo = () => (
+  <div className="logo">
+    <img style={style} src={logo} alt="logo" />
+  </div>
+);
 
 export default Logo;
