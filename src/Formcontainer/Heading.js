@@ -1,12 +1,10 @@
-import React from 'react';
-import './Heading.css';
+import React from "react";
+import "./Heading.css";
 
-const Heading=({text}) =>{
-    return(
-        <div className="Heading">
-            <h2>{text}</h2>
-        </div>
-    )
-}
+const Heading = ({ text }) => (
+  <div className="Heading">
+    <h2>{text}</h2>
+  </div>
+);
 
-export default Heading
+export default Heading;
