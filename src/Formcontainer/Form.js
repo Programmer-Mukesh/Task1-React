@@ -11,17 +11,18 @@ class Form extends Component {
       content3: "City, State and ZIP*",
       content4: "Email*",
       content5: "Password*(at least 6 characters)",
+      options: [
+        "How Did You Hear About Us?",
+        "Facebook",
+        "Google",
+        "Relatives",
+      ],
     };
   }
 
   render() {
-    const { content1, content2, content3, content4, content5 } = this.state;
-    const options = [
-      "How Did You Hear About Us?",
-      "Facebook",
-      "Google",
-      "Relatives",
-    ];
+    const { content1, content2, content3, content4, content5, options } =
+      this.state;
 
     return (
       <div>
